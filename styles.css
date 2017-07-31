@@ -1,3 +1,24 @@
 body {
-  background-color: blue;
+  background-color: #c3cddd;
+}
+
+#role_Table {
+  background-color: #cccccc;
+}
+
+#background_Image {
+  position: absolute;
+  z-index= -2;
+}
+
+#television_Appearances {
+  font-size: 150%;
+  background-image: url("https://image.freepik.com/free-vector/modern-technological-elements-with-transparent-background_1035-7108.jpg");
+  background-size: 25px 50px;
+  color: #000000;
+  z-index = 0;
+}
+
+#footer {
+  text-align: center;
 }
