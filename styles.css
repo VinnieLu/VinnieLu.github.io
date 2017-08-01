@@ -1,3 +1,67 @@
-body {
+@media screen and (min-width: 480px) {
+    body {
+        background-color: #c3cddd;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+#role_Table {
+  background-color: #cccccc;
+}
+
+#info {
+  font-family: georgia;
+}
+
+.header_Photo {
+  border: 10px solid green;
+  margin: 10px 75px 50px 60px;
+}
+
+.first_Header {
+  border-style: ridge;
+  border-width: 5px;
+  text-align: center;
+  margin: 50px;
+  padding: 15px;
+}
+
+h2 {
+  border-width: 3px;
+  border-style: dashed;
+  text-align: center;
   background-color: blue;
+  color: #d63e3e;
+  margin: 50px;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+#television_Appearances {
+  font-size: 150%;
+  background-image: url("https://image.freepik.com/free-vector/modern-technological-elements-with-transparent-background_1035-7108.jpg");
+  background-size: 25px 50px;
+  color: #000000;
+  z-index = 0;
+}
+
+#footer {
+  text-align: center;
+}
+
+.other_Fan_Page {
+  font-family: courier;
+}
+
+.link:link {
+  color: #1238b5;
+}
+
+.link:visited {
+  color: #3ae845;
 }
