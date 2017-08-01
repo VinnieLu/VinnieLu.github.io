@@ -1,5 +1,13 @@
-body {
-  background-color: #c3cddd;
+@media screen and (min-width: 480px) {
+    body {
+        background-color: #c3cddd;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
 }
 
 #role_Table {
@@ -31,6 +39,7 @@ h2 {
   color: #d63e3e;
   margin: 50px;
   padding: 10px;
+  text-decoration: underline;
 }
 
 #television_Appearances {
