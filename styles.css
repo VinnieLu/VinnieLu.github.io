@@ -1,19 +1,12 @@
-@media screen and (min-width: 480px) {
-    body {
-        background-color: #c3cddd;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    body {
-        background-color: lightgreen;
-    }
-}
-
+/*This is my media query*/
 @media only screen and (orientation: landscape) {
     body {
         background-color: lightgreen;
     }
+}
+
+body {
+  background-color: #c3cddd;
 }
 
 #role_Table {
